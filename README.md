@@ -11,7 +11,7 @@ HTML
 CSS
 BEM (Block, Element, Modifier)
 Configuración del Proyecto
-Clona el repositorio en tu maquina local git clone  https://jeffdarnel.github.io/web_project_homeland_jeff_mejia/
+Clona el repositorio en tu maquina local git clone  https://jeffdarnel.github.io/web_project_homeland/
 Navega por las diferentes secciones, descubre el menú y disfruta la experiencia visual
 Estructura del Proyecto
 ├───blocks
