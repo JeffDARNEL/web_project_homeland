@@ -1,0 +1,132 @@
+.cover {
+  margin-top: 150px;
+  margin-left: 0px;
+  position: relative;
+
+  font-family: Inter;
+  color: #fffdfd;
+
+  width: 1184px;
+  height: 740px;
+}
+
+.cover__container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+  transition: 0.2s;
+}
+
+.cover__container:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+}
+
+.cover__img {
+  width: 100%;
+  filter: brightness(80%);
+  margin-top: 30px;
+}
+.cover__title {
+  width: 656px;
+  height: 76px;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+
+.cover__subtitle {
+  width: 280px;
+  height: 66px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+.cover__button {
+  width: 280px;
+  height: 60px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: #fffdfd;
+  text-decoration-line: none;
+  padding-top: 16px;
+  border-radius: 4px;
+  gap: 10px;
+  background: #0278fe;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 746px;
+  }
+  .cover__img {
+    width: 768px;
+    height: 746px;
+  }
+  .cover__container {
+    width: 656px;
+    height: 254px;
+    margin-left: 50px;
+    margin-top: 30%;
+  }
+  .cover__button {
+    padding: 0px;
+  }
+  .cover__container:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin: 0px;
+    width: 320px;
+    height: 254px;
+  }
+  .cover__img {
+    width: 300px;
+    height: 254px;
+  }
+  .cover__container {
+    margin-bottom: 80px;
+    width: 288px;
+    height: 163px;
+    margin-left: 0px;
+  }
+  .cover__title {
+    font-size: 30px;
+    line-height: 6px;
+  }
+  .cover__subtitle {
+    font-size: 12px;
+  }
+  .cover__button {
+    color: #fffdfd;
+    width: 200px;
+    height: 160px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    text-decoration-line: none;
+    padding-top: 10px;
+  }
+}

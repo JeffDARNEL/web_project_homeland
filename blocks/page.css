@@ -1,0 +1,45 @@
+.page {
+  background-color: #2a2c2f;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 92px;
+  /*max-width: 1280px;
+  width: 1280px;
+  height: 8000px;
+  top: -4812px;
+  left: -3646px;
+  background: #2a2c2f;*/
+}
+.logo {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+.logo__page {
+  width: 380px;
+}
+@media screen and (max-width: 768px) {
+  .page {
+    width: 768px;
+    background-color: #2a2c2f;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 320px) {
+  .page {
+    width: 320px;
+    height: 12050px;
+    background-color: #2a2c2f;
+    color: #fff;
+  }
+  .logo {
+    width: 200px;
+    height: 51.85px;
+  }
+  .logo__page {
+    width: 320px;
+  }
+}
